@@ -1,0 +1,39 @@
+body, html{
+	margin: 0;
+	height: 100%;
+}
+#display{
+	height: 100%;
+	width: 100%;
+	display: table;
+	table-layout: fixed;
+}
+#output{
+	width: 100%;
+	/*min-height: 14pt;*/
+	/*max-height: 40pt;*/
+	height: 150pt;
+	overflow-y: auto;
+	background-color: lightblue;
+}
+#input{
+	display: table-row;
+	width: 100%;
+	min-height: 40pt;
+	height: 100%;
+	overflow: scroll;
+	background-color: #E1D7BA;
+}
+.button{
+    border: 2pt solid #A08F5F;
+    padding: 10pt 10pt;
+    background: #BFB189;
+    color: #FFF9E9;
+    width: 100pt;
+    border-radius: 25px;
+    text-align: center;
+    margin: 0pt 15pt;
+}
+.button:hover{
+	background: #A08F5F;
+}
